@@ -1,3 +1,4 @@
+
 // Requires: Jquery
 $.fn.extend({keyboardFlex:function(){
 		let ob = this[0];
@@ -6,7 +7,8 @@ $.fn.extend({keyboardFlex:function(){
 		if(ob){ob.dispatchEvent(E1);ob.dispatchEvent(E2);ob.dispatchEvent(E3);}
 }});
 
-
 // Usage example:
 var value = 'Ivan';
 $('#name').val(value).keyboardFlex();
+
+// V
