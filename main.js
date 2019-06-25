@@ -11,4 +11,3 @@ $.fn.extend({keyboardFlex:function(){
 var value = 'Ivan';
 $('#name').val(value).keyboardFlex();
 
-// V
