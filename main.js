@@ -1,4 +1,5 @@
-$.fn.extend({KeyboardFlex:function(){
+// Requires: Jquery
+$.fn.extend({keyboardFlex:function(){
 		let ob = this[0];
 		let i = {target:ob,bubbles:!0,popGenerated:!0,isFillrWidgetEvent:!0,keyCode:19,key:"a"};
 		let E1 = new KeyboardEvent("keyup", i),E2 = new KeyboardEvent("input", i),E3 = new KeyboardEvent("blur", i);
@@ -6,6 +7,6 @@ $.fn.extend({KeyboardFlex:function(){
 }});
 
 
-// Example:
+// Usage example:
 var value = 'Ivan';
-$('#name').val(value).KeyboardFlex();
+$('#name').val(value).keyboardFlex();
